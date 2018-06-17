@@ -1,0 +1,15 @@
+@import "reset.css";
+@import "fonts.css";
+
+@import "header.css";
+@import "sub-slogan.css";
+@import "box.css";
+@import "hire-a-chiller.css";
+@import "testimonials.css";
+@import "about-big-chiller.css";
+@import "order-now.css";
+@import "footer.css";
+
+.container {
+  max-width: 1440px;
+}

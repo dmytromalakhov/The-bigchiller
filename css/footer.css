@@ -1,0 +1,63 @@
+.footer {
+  height: 70px;
+  background-color: #f5f5f5;
+  max-width: 1440px;
+  display: grid;
+  grid-template: 1fr / repeat(3, 1fr);
+  margin: auto;
+}
+
+.footer .f-one {
+  margin-left: 30px;
+  margin-top: 18px;
+}
+
+.footer .f-one a {
+  color: #aaaaaa;
+  font-family: "Futura", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.36px;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  letter-spacing: -1px;
+}
+
+.footer .f-two {
+  margin-left: 93px;
+  margin-top: 30px;
+}
+
+.footer .f-two a {
+  color: #a9a9a9;
+  font-family: "Futura-Normal", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.footer .f-three {
+  margin-left: 150px;
+  margin-top: 28px;
+  color: #a9a9a9;
+}
+
+.footer a {
+  color: #a9a9a9;
+  font-family: "Futura-Normal", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.footer .f-three a:nth-child(1) {
+  letter-spacing: -0.5px;
+  margin-right: 25px;
+}
+
+.footer .f-three a:nth-child(2) {
+  margin-right: 20px;
+}

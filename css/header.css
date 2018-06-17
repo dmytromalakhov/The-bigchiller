@@ -1,0 +1,175 @@
+.top {
+  height: 40px;
+}
+
+.top .distr {
+  display: inline-block;
+  color: #282828;
+  font-family: 'Futura-Normal', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 13px;
+  margin-left: 14px;
+}
+
+.top i {
+  margin-left: 5px;
+  margin-top: 12px;
+  color: #019fbc;
+  font-size: 14px;
+}
+
+.top .london {
+  color: #019fbc;
+  font-family: "Futura", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-left: -1px;
+}
+
+.top .change-distr {
+  display: inline-block;
+  color: #282828;
+  font-family: "Futura-Normal", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 50px;
+}
+
+.top img {
+  cursor: pointer;
+}
+/***** /top *****/
+
+/***** body *****/
+.body {
+  background: #f5f5f5;
+  height: 90px;
+  position: relative;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.body .logo img {
+  width: 175px;
+  height: 51px;
+  position: absolute;
+  top: 23%;
+  margin-left: 15px;
+}
+
+.body .nav {
+  float: right;
+  margin-top: 15px;
+}
+
+.body .nav .nav-link {
+  color: #282828;
+  font-family: "Futura", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18.36px;
+  text-transform: uppercase;
+}
+
+.body .nav .active {
+  color: #019fbc;
+  font-family: "Futura", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.36px;
+  text-transform: uppercase;
+  border-bottom: 2px solid;
+}
+
+.body .nav .home {
+  margin-right: 25px;
+}
+
+.body .nav .units {
+  margin-right: 25px;
+}
+
+.body .nav .hire {
+  background-color: #019fbc;
+  background-image: linear-gradient(to top, #14c1a5 0%, #7edece 100%);
+  border-radius: 20px;
+  color: #fff;
+  margin-right: 25px;
+}
+
+.body .nav .about {
+  margin-right: 29px;
+}
+
+.body .nav .contact {
+  margin-right: -2px;
+}
+
+.body .nav .drop-menu {
+  position: absolute;
+  z-index: 1;
+  display: none;
+  box-shadow: 0 8px 13px rgba(0, 0, 0, 0.13);
+  background-color: #ffffff;
+}
+
+.body .nav .drop-menu a:hover {
+  background: #019fbc;
+  color: #fff;
+}
+/***** /body *****/
+
+/***** slider *****/
+.slider {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.carousel-indicators {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  width: 60%;
+  margin-left: -12%;
+  text-align: right;
+  display: inline-table;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  margin: 0 8px;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.carousel-indicators .active {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  margin: 0 8px;
+  cursor: pointer;
+  background-color: #019fbc;
+  border: 1px solid #019fbc;
+  border-radius: 10px;
+}
+
+.main-text {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: -176px;
+  margin-left: 7px;
+  line-height: 0.87;
+  position: relative;
+  letter-spacing: -0.9px;
+  font-family: "Futura", sans-serif;
+}
+/***** /slider *****/

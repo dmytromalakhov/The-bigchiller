@@ -1,0 +1,42 @@
+.hire-a-chiller {
+  height: 111px;
+  background-color: #f5f5f5;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.hire-a-chiller h3 {
+  color: #282828;
+  font-family: "Futura", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 18px;
+  margin-left: 15px;
+  position: relative;
+  bottom: 26px;
+  line-height: 1;
+}
+
+.hire-a-chiller span {
+  color: #019fbc;
+}
+
+.hire-a-chiller img {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.hire-a-chiller a {
+  position: relative;
+  bottom: 42px;
+  background-color: #019fbc;
+  background-image: linear-gradient(to top, #14c1a5 0%, #7edece 100%);
+  border-radius: 20px;
+  color: #fff;
+  display: inline-block;
+  padding: 12px 20px;
+  margin-left: -9px;
+}

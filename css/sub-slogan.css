@@ -1,0 +1,26 @@
+.sub-slogan {
+  height: 75px;
+  margin-top: -7px;
+}
+
+.sub-slogan p {
+  color: #282828;
+  font-family: "Futura-Normal", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 97.7px;
+  display: inline-block;
+  margin-top: -11px;
+  margin-left: 12px;
+  margin-right: 19px;
+  letter-spacing: -0.5px;
+}
+
+.sub-slogan a {
+  background-color: #019fbc;
+  background-image: linear-gradient(to top, #14c1a5 0%, #7edece 100%);
+  border-radius: 20px;
+  color: #fff;
+  display: inline-block;
+  padding: 12px 20px;
+}

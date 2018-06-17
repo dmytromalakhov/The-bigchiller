@@ -1,0 +1,91 @@
+.order-now .hat {
+  height: 75px;
+  margin-top: 60px;
+  position: relative;
+  border-top: 1px solid #f5f5f5;
+}
+
+.order-now .hat h3 {
+  font-family: "Futura", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 15.82px;
+  text-transform: uppercase;
+  color: #282828;
+  margin-left: 15px;
+  position: absolute;
+  top: 28px;
+}
+
+.order-now .hat span {
+  color: #019fbc;
+}
+
+.order-box {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.order-box img {
+  max-width: 1440px;
+  width: 100vw;
+}
+
+.order-box h2 {
+  color: #ffffff;
+  font-family: "Futura", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 59.82px;
+  text-transform: uppercase;
+  position: relative;
+  bottom: 53px;
+  margin-left: 29px;
+  margin-bottom: -62px;
+}
+
+.order-box h4 {
+  color: #ffffff;
+  font-family: "Futura", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 23.82px;
+  text-transform: uppercase;
+  position: relative;
+  bottom: 19px;
+  float: right;
+  margin-right: 29px;
+}
+
+.order-box-footer {
+  height: 110px;
+}
+
+.order-box-footer a {
+  display: inline-block;
+  color: #ffffff;
+  font-family: "Futura", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 28.15px;
+  text-transform: uppercase;
+  background-color: #019fbc;
+  background-image: linear-gradient(to top, #14c1a5 0%, #7edece 100%);
+  border-radius: 20px;
+  margin-top: 29px;
+  margin-left: 16px;
+  padding: 7px 21px;
+}
+
+.order-box-footer p {
+  display: inline-block;
+  color: #282828;
+  font-family: "Futura-Normal", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36.02px;
+  float: right;
+  margin-right: -114px;
+  margin-top: 30px;
+  letter-spacing: -0.2px;
+}
