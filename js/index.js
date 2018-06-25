@@ -3,7 +3,9 @@ $(document).ready(function () {
   $(".right li:nth-child(1)").click(activeLink1);
   $(".right li:nth-child(2)").click(activeLink2);
   $(".right li:nth-child(3)").click(activeLink3);
-
+  setTimeout(openModal, 1000 );
+  $("#location").click(changeLocation);
+  $("#arrow-location").click(arrowChangeLocation);
 });
 
 function dropMenu() {
@@ -29,4 +31,21 @@ function activeLink3(event) {
   $(".nav-one").removeClass('active');
   $(".nav-two").removeClass('active');
   $(".nav-three").addClass('active');
+}
+
+function openModal(){
+  $('#timeModal').modal('show');
+
+}
+
+function changeLocation(){
+  let a = $('#cities option:selected').text()
+  $('.header .top .city').text(a);
+  $('#timeModal').modal('hide');
+}
+
+function arrowChangeLocation(){
+  let a = $('#arrow-cities option:selected').text()
+  $('.header .top .city').text(a);
+  $('#arrowModal').modal('hide');
 }

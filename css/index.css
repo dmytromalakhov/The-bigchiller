@@ -9,6 +9,7 @@
 @import "about-big-chiller.css";
 @import "order-now.css";
 @import "footer.css";
+@import "modal.css";
 
 .container {
   max-width: 1440px;

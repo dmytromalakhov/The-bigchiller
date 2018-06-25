@@ -28,6 +28,12 @@
   max-width: 33.3vw;
 }
 
+@media (max-width: 1333px) {
+  .person img {
+    max-width: 32.8vw;
+  }
+}
+
 .one {
   grid-column: 1 / 2;
   position: relative;

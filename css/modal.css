@@ -1,0 +1,151 @@
+.modal-content {
+  width: 960px;
+  margin-left: -50%;
+}
+
+.modal-box {
+  display: grid;
+  grid-template: 1fr / repeat(2, 480px);
+}
+
+.box-left {
+  grid-column: 1 / 2;
+}
+
+.box-left h6 {
+  color: #282828;
+  font-family: "Futura-Normal", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 57px 0 34px 180px;
+}
+
+.box-left img {
+  padding: 0 0 106px 67px;
+}
+
+.box-right {
+  grid-column: 2 / 3;
+}
+
+.box-right h4 {
+  color: #282828;
+  font-family: Futura, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28.82px;
+  text-transform: uppercase;
+  padding: 57px 0 28px 31px;
+}
+
+.box-right h5 {
+  color: #282828;
+  font-family: "Futura - Normal", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 0 0 25px 32px;
+}
+
+.box-right select,
+.arrow-box-right select{
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+  border: 1px solid #eaeaea;
+  padding: 19px 275px 19px 19px;
+  margin-left: 30px;
+  display: block;
+  color: #ababab;
+  font-family: "Futura - Normal", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  position: relative;
+}
+
+.box-right a,
+.arrow-box-right a{
+  color: #ffffff;
+  font-family: Futura, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.42px;
+  text-transform: uppercase;
+  background-color: #019fbc;
+  background-image: linear-gradient(to top, #019fbc 0%, #8ed5e2 100%);
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 40px 0 40px 145px;
+  display: inline-block;
+}
+
+.box-right a i {
+  margin-right: 20px;
+}
+
+.box-right h6,
+.arrow-box-right h6{
+  text-align: center;
+}
+
+.box-right img,
+.arrow-box-right img{
+  display: inline-block;
+  margin-left: 170px;
+  margin-top: 35px;
+}
+
+.box-right p,
+.arrow-box-right p{
+  display: inline-block;
+}
+
+.arrow-modal-box {
+  display: grid;
+  grid-template: 1fr / repeat(2, 480px);
+}
+
+.arrow-box-left {
+  grid-column: 1 / 2;
+}
+
+.arrow-box-left img {
+
+}
+
+.arrow-box-left h4 {
+  color: #ffffff;
+  font-family: Futura, sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 46.6px;
+  text-transform: uppercase;
+  margin-top: -135px;
+  margin-left: 23px;
+}
+
+.arrow-box-left h5 {
+  color: #282828;
+  font-family: "Futura-Normal", sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 36.02px;
+  margin: 26px 0 23px 30px;
+}
+
+.arrow-box-left h6 {
+  color: #282828;
+  font-family: "Futura-Normal", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 0 30px 30px;
+}
+
+.arrow-box-right {
+  grid-column: 2 / 3;
+}
+
+.arrow-box-right .arrow-logo {
+  display: block;
+  margin: 55px 0 55px 87px;
+}

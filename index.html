@@ -15,9 +15,10 @@
     <div class="container">
       <h6 class="distr">Your distributor:</h6>
       <i class="fas fa-map-marker-alt"></i>
-      <h6 class="london">London</h6>
+      <h6 class="city" data-toggle="modal" data-target="#arrowModal">London</h6>
+      <div class="line"></div>
       <h6 class="change-distr">change the distributor</h6>
-      <img src="img/arrow.png" alt="arrow">
+      <img src="img/arrow-right.png" alt="arrow" data-toggle="modal" data-target="#arrowModal">
     </div>
   </div>
   <div class="body">
@@ -28,10 +29,10 @@
       <div class="nav">
         <ul class="nav justify-content-end">
           <li class="nav-item">
-            <a class="nav-link active home" href="#">HOME</a>
+            <a class="nav-link active home hover" href="#">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link units" href="#">CHILLER UNITS <img src="img/arrow-nav.png" alt="arrow-nav"></a>
+            <a class="nav-link units hover" href="#">CHILLER UNITS <img src="img/arrow-nav.png" alt="arrow-nav"></a>
             <ul class="drop-menu">
               <li class="nav-item">
                 <a class="nav-link" href="#">REFRIGERATED</a>
@@ -45,10 +46,10 @@
             <a class="nav-link hire" href="#">HIRE A CHILLER</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link about" href="#">ABOUT US</a>
+            <a class="nav-link about hover" href="#">ABOUT US</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link contact" href="#">CONTACT</a>
+            <a class="nav-link contact hover" href="#">CONTACT</a>
           </li>
         </ul>
       </div>
@@ -253,6 +254,63 @@
     <a href="#">Contact Us</a>
   </div>
 </footer>
+
+<div class="modal fade" id="timeModal" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-box">
+        <div class="box-left">
+          <h6>Welcome to</h6>
+          <img src="img/warstwa3.png" alt="warstwa3">
+        </div>
+        <div class="box-right">
+          <h4>ENTER YOUR POSTCODE<br>TO LOCATE YOUR NEAREST<br>BRANCH</h4>
+          <h5>We wont use this information for anything else</h5>
+          <select id="cities">
+            <option value="your location">Your location</option>
+            <option value="london">London</option>
+            <option value="kyiv">Kyiv</option>
+            <option value="praga">Praga</option>
+            <option value="berlin">Berlin</option>
+          </select>
+          <a href="#" id="location"><i class="fas fa-map-marker-alt"></i>USE MY LOCATION</a>
+          <h6>or</h6>
+          <img data-dismiss="modal" src="img/arrow-left.png" alt="arrow-left">
+          <p>continue to site</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="arrowModal" tabindex="-1" role="dialog" aria-labelledby="arrowModal" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="arrow-modal-box">
+        <div class="arrow-box-left">
+          <img src="img/warstwa-4.png" alt="warstwa-4">
+          <h4>PLEASE<br>ENTER YOUR<br>POSTCODE</h4>
+          <h5>So that we can identify your nearest branch</h5>
+          <h6>We wont use this information for anything else</h6>
+        </div>
+        <div class="arrow-box-right">
+          <img src="img/big-logo.png" class="arrow-logo" alt="big-logo">
+          <select id="arrow-cities">
+            <option value="Your location">Your location</option>
+            <option value="london">London</option>
+            <option value="kyiv">Kyiv</option>
+            <option value="praga">Praga</option>
+            <option value="berlin">Berlin</option>
+          </select>
+          <a href="#" id="arrow-location"><i class="fas fa-map-marker-alt"></i>USE MY LOCATION</a>
+          <h6>or</h6>
+          <img data-dismiss="modal" src="img/arrow-left.png" alt="arrow-left">
+          <p>continue to site</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
